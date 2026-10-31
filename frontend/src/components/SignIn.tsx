@@ -29,7 +29,7 @@ const buttonContainerStyle: CSSProperties = {
   gap: "1rem",
 };
 
-const SignIn = ({ onSignIn, onModalClose, disabled }: SignInProps) => {
+const SignIn = ({ onSignIn, onModalClose, disabledX }: SignInProps) => {
   return (
     <div style={modalStyle}>
       <p style={{ fontWeight: "bold" }}>You need to sign in first.</p>
