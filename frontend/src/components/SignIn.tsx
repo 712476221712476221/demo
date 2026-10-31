@@ -34,7 +34,7 @@ const SignIn = ({ onSignIn, onModalClose, disabled }: SignInProps) => {
     <div style={modalStyle}>
       <p style={{ fontWeight: "bold" }}>You need to sign in first.</p>
       <div style={buttonContainerStyle}>
-        <button onClick={onSignIn} disabled={disabled}>
+        <button onClick={onSignIn} 
           Sign in
         </button>
         <button onClick={onModalClose}>Close</button>
